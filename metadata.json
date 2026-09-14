@@ -1,0 +1,6 @@
+{
+  "name": "Laboratório Diesel",
+  "description": "Plataforma profissional do Laboratório Diesel especializado em diagnóstico, reparação e componentes para sistemas de injeção diesel e Common Rail.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
