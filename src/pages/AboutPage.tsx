@@ -2,6 +2,7 @@ import React from 'react';
 import { ActivePage } from '../types';
 import { ShieldCheck, ArrowLeft, Award, Cpu, CheckCircle2, Factory, Microscope, Gauge } from 'lucide-react';
 import { BrandLogo } from '../components/BrandLogo';
+import cleanRoomImg from '../../assets/clean-room.png';
 
 interface AboutPageProps {
   setActivePage: (page: ActivePage) => void;
@@ -63,15 +64,15 @@ export const AboutPage: React.FC<AboutPageProps> = ({ setActivePage }) => {
             />
             <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
             <div className="absolute bottom-4 left-4 right-4 text-white">
-              <p className="font-heading font-bold text-sm">Bancadas Computadorizadas Bosch</p>
+              <p className="font-heading font-bold text-sm">Bancadas Computadorizadas</p>
               <p className="text-[11px] text-slate-300">Simulação real de pressão de trabalho até 2.500 bar</p>
             </div>
           </div>
 
           <div className="rounded-2xl overflow-hidden border border-slate-200 bg-slate-900 relative h-64 group shadow-sm">
             <img
-              src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?auto=format&fit=crop&w=800&q=80"
-              alt="Ambiente estéril para montagem de componentes de precisão"
+                  src={cleanRoomImg}
+                  alt="Ambiente estéril para montagem de componentes de precisão"
               className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
               onError={(e) => {
                 (e.target as HTMLImageElement).src = 'https://images.unsplash.com/photo-1619642751034-765dfdf7c58e?auto=format&fit=crop&w=800&q=80';

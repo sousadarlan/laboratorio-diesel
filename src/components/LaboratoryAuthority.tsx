@@ -19,7 +19,7 @@ export const LaboratoryAuthority: React.FC = () => {
                   }}
                 />
                 <div className="absolute bottom-3 left-3 right-3 p-2.5 rounded-lg bg-[#0A1233]/90 text-white text-[11px] font-medium backdrop-blur-xs">
-                  Bancada Bosch EPS Digital
+                  Bancada EPS Digital
                 </div>
               </div>
 

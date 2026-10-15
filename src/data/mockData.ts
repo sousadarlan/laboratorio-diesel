@@ -9,7 +9,7 @@ export const COMPANY_INFO = {
   phoneClean: '556593602659',
   whatsapp: '(65) 9360-2659',
   whatsappClean: '556593602659',
-  email: 'contato@lbdistribuidora.com.br',
+  email: 'laboratoriodiesel04@gmail.com',
   address: 'Rua Nemelice Gaiva de Almeida, nº 48 - Ponte Nova',
   neighborhood: 'Ponte Nova',
   number: '451',
@@ -868,7 +868,7 @@ export const WORKSHOP_BENEFITS = [
     icon: 'Clock',
   },
   {
-    title: 'Laudo Técnico Digital com Sua Logo',
+    title: 'Laudo Técnico Digital',
     description: 'Entregamos relatórios e gráficos oficiais de bancada para você comprovar a necessidade do serviço com total transparência ao seu cliente.',
     icon: 'FileText',
   },
